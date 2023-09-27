@@ -8,10 +8,7 @@ public class Polynomial {
 	}
 
 	public Polynomial(double[] arr) {
-		int len = arr.length;
-		for (int i = 0; i<len; i = i+1) {
-			coefficients[i] = arr[i];
-		}
+		coefficients = arr;
 	}
 
 	public Polynomial add(Polynomial p) {
